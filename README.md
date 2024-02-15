@@ -17,7 +17,7 @@ To install Easy2Dev Laravel Tenant Migrate, follow these steps:
 1.  Install the package via Composer:
 
 ```
-composer require wizardry/multi-tenant-wizard
+composer require easy2dev/multi-tenant-wizard
 ```
 
 2. Verify the installation by running `php artisan`. If the package commands are listed, the installation was successful.
