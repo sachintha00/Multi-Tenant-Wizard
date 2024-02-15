@@ -1,0 +1,31 @@
+{
+    "name": "easy2dev/multi-tenant-wizard",
+    "description": "Easy2Dev Laravel Tenant Migrate is a Laravel package designed to simplify database migration for multi-tenant applications, particularly those employing PostgreSQL databases. This package streamlines the migration process for Software as a Service (SaaS) web applications where tenant data is stored in separate databases. It eliminates the need to manually adjust database configuration files for each tenant, offering a scalable solution for database management.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^10.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Easy2Dev\\MultiTenantWizard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sachintha",
+            "email": "sachintha0603@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "10.5.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Easy2Dev\\MultiTenantWizard\\MultiTenantWizardServiceProvider"
+            ]
+        }
+    }
+}
