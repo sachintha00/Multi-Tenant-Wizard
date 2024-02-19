@@ -8,6 +8,7 @@ use Easy2Dev\MultiTenantWizard\Commands\MigrateCommand;
 use Easy2Dev\MultiTenantWizard\Commands\MigrateRefreshCommand;
 use Easy2Dev\MultiTenantWizard\Commands\MigrateResetCommand;
 use Easy2Dev\MultiTenantWizard\Commands\MigrateRollbackAllCommand;
+use Easy2Dev\MultiTenantWizard\Commands\TenantDBSeedCommand;
 use Illuminate\Support\ServiceProvider;
 
 class MultiTenantWizardServiceProvider extends ServiceProvider
@@ -21,6 +22,7 @@ class MultiTenantWizardServiceProvider extends ServiceProvider
             MigrateRollbackAllCommand::class,
             MigrateRefreshCommand::class,
             MigrateResetCommand::class,
+            TenantDBSeedCommand::class,
         ]);
     }
 }
